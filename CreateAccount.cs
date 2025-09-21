@@ -13,11 +13,12 @@ class CreateAccount
     }
     
     static BankAccount NewBankAccount()
-    {       
+    {
+        //long number;    
         BankAccount created = new BankAccount(); // Создание объекта created класса BankAccount
         
-        Console.Write("Enter the account number: "); // Предложение ввести номер аккаунта
-        long number = long.Parse(Console.ReadLine()); // Ввод номера аккаунта
+        /*Console.Write("Enter the account number: "); // Предложение ввести номер аккаунта
+        long number = long.Parse(Console.ReadLine()); // Ввод номера аккаунта*/
 
         Console.Write("Enter the account balance!: "); //Предложение ввести баланс аккаунта
         decimal balance = decimal.Parse(Console.ReadLine()); // Ввод баланса
@@ -25,7 +26,8 @@ class CreateAccount
         /*created.accNo = number;
         created.accBal = balance;
         created.accType = AccountType.Checking;*/
-        created.Populate(number, balance); // Передача номера и баланса аккаунта в created
+        //number = created.NextNumber();
+        created.Populate(balance); // Передача номера и баланса аккаунта в created
         
         return created; // Возврат объекта класса BankAccount
     }

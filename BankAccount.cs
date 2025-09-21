@@ -5,9 +5,10 @@ class BankAccount //Класс BankAccount, описывающий объект 
     private long accNo; // Приватное поле номера аккаунта
     private decimal accBal; // Приватное поле баланса аккаунта
     private AccountType accType; // Приватное поле типа аккаунта
-    public void Populate(long number, decimal balance) // Метод Populate, заполняющий поля аккаунта 
+    private static long nextAccNo = 123; // Приватное статическое поле номера аккаунта (изначально равное 123)
+    public void Populate(decimal balance) // Метод Populate, заполняющий поля аккаунта 
     {
-        accNo = number;
+        accNo = NextNumber();
         accBal = balance;
         accType = AccountType.Checking;
     }
@@ -22,6 +23,10 @@ class BankAccount //Класс BankAccount, описывающий объект 
     public string Type() // Метод Type, возвращающий тип аккаунта
     {
         return accType.ToString();
+    }
+    private long NextNumber() // Метод NextNumber, возвращающий следующий номер аккаунта через nextAccNo
+    {
+        return nextAccNo++;
     }
 
 }
