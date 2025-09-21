@@ -1,0 +1,14 @@
+C:\Users\79112\Desktop\VUZ\lab_oop_6\obj\Debug\net9.0\lab_oop_6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\79112\Desktop\VUZ\lab_oop_6\obj\Debug\net9.0\lab_oop_6.AssemblyInfoInputs.cache
+C:\Users\79112\Desktop\VUZ\lab_oop_6\obj\Debug\net9.0\lab_oop_6.AssemblyInfo.cs
+C:\Users\79112\Desktop\VUZ\lab_oop_6\obj\Debug\net9.0\lab_oop_6.csproj.CoreCompileInputs.cache
+C:\Users\79112\Desktop\VUZ\lab_oop_6\bin\Debug\net9.0\lab_oop_6.exe
+C:\Users\79112\Desktop\VUZ\lab_oop_6\bin\Debug\net9.0\lab_oop_6.deps.json
+C:\Users\79112\Desktop\VUZ\lab_oop_6\bin\Debug\net9.0\lab_oop_6.runtimeconfig.json
+C:\Users\79112\Desktop\VUZ\lab_oop_6\bin\Debug\net9.0\lab_oop_6.dll
+C:\Users\79112\Desktop\VUZ\lab_oop_6\bin\Debug\net9.0\lab_oop_6.pdb
+C:\Users\79112\Desktop\VUZ\lab_oop_6\obj\Debug\net9.0\lab_oop_6.dll
+C:\Users\79112\Desktop\VUZ\lab_oop_6\obj\Debug\net9.0\refint\lab_oop_6.dll
+C:\Users\79112\Desktop\VUZ\lab_oop_6\obj\Debug\net9.0\lab_oop_6.pdb
+C:\Users\79112\Desktop\VUZ\lab_oop_6\obj\Debug\net9.0\lab_oop_6.genruntimeconfig.cache
+C:\Users\79112\Desktop\VUZ\lab_oop_6\obj\Debug\net9.0\ref\lab_oop_6.dll
