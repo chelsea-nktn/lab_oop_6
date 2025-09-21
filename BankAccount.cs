@@ -28,5 +28,23 @@ class BankAccount //Класс BankAccount, описывающий объект 
     {
         return nextAccNo++;
     }
+    public decimal Deposit(decimal amount) // Метод Deposit, позволяющий внести средства на аккаунт
+    {
+        accBal += amount;
+        return accBal;
+
+    }
+    public bool Withdraw(decimal amount) // Метод Withdraw, позволяющий снять средства со счета и проверяющий, возможно ли это
+    {
+        if (accBal >= amount)
+        {
+            accBal -= amount;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 
 }
